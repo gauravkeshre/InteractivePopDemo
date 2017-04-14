@@ -54,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="1056.8" y="112.89355322338831"/>
         </scene>
-        <!--DetailVC-->
+        <!--Hello-->
         <scene sceneID="cHa-P6-HSU">
             <objects>
                 <viewController storyboardIdentifier="DetailVC" id="5wS-0G-jOD" customClass="DetailVC" customModule="InteractivePopDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -134,6 +134,13 @@
                             <constraint firstItem="nJO-M3-XgK" firstAttribute="leading" secondItem="tYP-xE-brw" secondAttribute="leading" constant="30" id="puP-Zd-3oq"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Hello" id="XFS-i0-SPZ">
+                        <barButtonItem key="rightBarButtonItem" title="Info" id="95q-Vb-jSD">
+                            <connections>
+                                <segue destination="c6x-By-hEp" kind="show" id="rLO-4R-oHL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNI-5E-WLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,6 +163,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAS-Pt-6wH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="112.89355322338831"/>
+        </scene>
+        <!--MasterVC-->
+        <scene sceneID="w5n-Tg-2Cu">
+            <objects>
+                <viewController id="c6x-By-hEp" customClass="MasterVC" customModule="InteractivePopDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="REY-m0-fIY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ych-VZ-Wj6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sal-Pt-scR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="G1K-O0-TKH">
+                                <rect key="frame" x="0.0" y="239" width="375" height="82"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="36"/>
+                                <color key="textColor" red="0.52891710069999998" green="0.34922960069999998" blue="0.75882614550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.058823529630000003" green="0.180392161" blue="0.24705882370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91314550149999996" green="0.96403140440000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="geP-Jm-cZ8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="viz-XH-tMO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3071" y="113"/>
         </scene>
     </scenes>
 </document>
