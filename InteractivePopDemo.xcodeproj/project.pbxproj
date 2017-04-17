@@ -302,6 +302,7 @@
 				1E1336B21EA1530500CEA0FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
