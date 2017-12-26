@@ -9,3 +9,6 @@ You can read the article here: https://www.linkedin.com/pulse/controlling-intera
 
 ### Demo
 
+![Alt text](Screenshots/1.png?raw=true&width=50&height=100 "Screenshot")
+![Alt text](Screenshots/2.png?raw=true&s=50 "Screenshot")
+![Alt text](Screenshots/3.png?raw=true&s=50 "Screenshot")
